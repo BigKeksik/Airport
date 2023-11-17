@@ -37,7 +37,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (!someoneFind) {
+    if (!someoneFind && !!findValue) {
       const query = async () => {
         let tempArray = new Array<any>
 
