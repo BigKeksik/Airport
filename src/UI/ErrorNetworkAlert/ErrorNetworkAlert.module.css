@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    border: 1px solid rgba(128,0,0,.4);
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.text {
+    margin: 0 10px;
+}
